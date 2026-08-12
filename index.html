@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - Simple Todo</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="brand">TaskFlow</div>
+        <h1>আজকের কাজ, guaranteed শেষ</h1>
+        <p>Delegation দিয়ে বানানো - infinite items add করলেও performant</p>
+    </header>
+    
+    <main class="app">
+        <form id="f" class="composer">
+            <input id="i" placeholder="নতুন কাজ লেখো..." required />
+            <button>+ Add</button>
+        </form>
+        
+        <ul id="list" class="list"></ul>
+        
+        <div class="stats">
+            <span id="count">0 tasks</span> 
+            <button id="clear">Clear done</button>
+        </div>
+    </main>
+    
+    <footer>© TaskFlow 2026. Tip: item text click করলে done toggle</footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
