@@ -8,21 +8,23 @@
 </head>
 <body>
     <header class="hero">
-        <div class="brand">TaskFlow</div>
-        <h1>আজকের কাজ, guaranteed শেষ</h1>
-        <p>Delegation দিয়ে বানানো - infinite items add করলেও performant</p>
+        <div class="brand">
+            <h1>TaskFlow</h1>
+        </div>
+        <h1>Todays work</h1>
+        <p>Manage Your Daily Tasks</p>
     </header>
     
     <main class="app">
         <form id="f" class="composer">
             <input id="i" placeholder="নতুন কাজ লেখো..." required />
-            <button>+ Add</button>
+            <button type="submit">+ Add</button>
         </form>
         
         <ul id="list" class="list"></ul>
         
         <div class="stats">
-            <span id="count">0 tasks</span> 
+            <span id="count">0 tasks - 0 done</span> 
             <button id="clear">Clear done</button>
         </div>
     </main>
